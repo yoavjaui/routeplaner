@@ -2,7 +2,7 @@
 
 ## Summary
 
-Router Planer is an android application which was built as an entree for the Code-Competition [Handlungsreisender](https://www.it-talents.de/foerderung/code-competition/code-competition-02-2017). The task for the challenge was to create an application which allows calculating an optimized route for given points. So basically the known Traveling salesman problem. Also, the application should at least be able to handle 10 route points.
+Router Planer is an android application to create an application which allows calculating an optimized route for given points. So basically the known Traveling salesman problem. Also, the application should at least be able to handle 10 route points.
 
 ## The solution
 
@@ -15,6 +15,3 @@ For finding the optimal route between the given routes a genetic algorithm, hill
 
 This project is an basic android project, so after checking it out follow the known steps for importing an project into android studio.
 
-## License
-
-MIT
