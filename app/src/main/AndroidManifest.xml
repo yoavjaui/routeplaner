@@ -30,7 +30,7 @@
         <meta-data
             tools:replace="android:value"
             android:name="com.google.android.gms.version"
-            />
+            android:value="@integer/google_play_services_version" />
 
         <activity android:name="de.templum.routeplaner.view.RouteFormActivity"
             tools:ignore="Instantiatable">
@@ -40,13 +40,19 @@
             </intent-filter>
         </activity>
         <activity android:name="de.templum.routeplaner.view.RouteViewActivity"/>
+
         <provider
             android:authorities="de.templum.routeplaner.here.this.library.provider"
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
             android:grantUriPermissions="true"
             tools:replace="android:authorities">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
         </provider>
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="true"/>
