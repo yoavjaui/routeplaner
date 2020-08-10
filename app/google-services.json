@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "676227574395",
+    "firebase_url": "https://routeplaner-59e31.firebaseio.com",
+    "project_id": "routeplaner-59e31",
+    "storage_bucket": "routeplaner-59e31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676227574395:android:8a6fc2fb7ec4a12e0550de",
+        "android_client_info": {
+          "package_name": "de.templum.routeplaner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676227574395-fe17sqi5acs1orqurv4smdq3mtchvfh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.templum.routeplaner",
+            "certificate_hash": "c7b92a52858bc7d955747268630439e0123fcff8"
+          }
+        },
+        {
+          "client_id": "676227574395-lp61ervum21r55hg1e0jqbid329niend.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4FH9N3P08fNNZ5iHaN_gaprX8PQGKYXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676227574395-lp61ervum21r55hg1e0jqbid329niend.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
